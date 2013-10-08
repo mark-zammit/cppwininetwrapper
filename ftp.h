@@ -9,6 +9,14 @@ Contact : elie_louis@hotmail.com
 /*
 Contributor : Mark Zammit
 Contact     : markzammit@me.com
+Changes     :
+    Implemented disconnect() for heap allocation as original was designed for short scope
+    Implemented getfilesize() fully so that it returns a file size as a QuadPart
+    Implemented command()
+    Added unicode support
+    Added comments to header with full method descriptions
+    Fixed some potential runtime crashes by adding connection checks to all methods
+        as well as adding connection check on disconnect for heap based variations
 */
 
 #include <Windows.h>
