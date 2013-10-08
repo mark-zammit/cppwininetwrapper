@@ -138,7 +138,7 @@ class FTP
          *              if there is no active connection.
          */
 		HINTERNET   gethandle(void);
-		bool        command(TSTR lpszCommand);;
+		bool        command(TSTR lpszCommand);
 
 	private:
 		bool        m_connected;
